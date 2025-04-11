@@ -1,4 +1,4 @@
-# containerized-command-line-assitsant
+# containerized-command-line-assistant
 A Fedora container shipping github.com/rhel-lightspeed/command-line-assistant
 
 ```
