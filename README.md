@@ -21,4 +21,4 @@ The command-line-assistant has dbus dependencies which requires systemd to be PI
 
 ### Interact with the command-line-assistant
 
-![screenshot](screenshot.png)
+![screenshot](screenshots/chat.png)
