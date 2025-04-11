@@ -15,6 +15,8 @@ $ make push-oci-image
 
 The command-line-assistant has dbus dependencies which requires systemd to be PID1 inside the container.  Hence, we first need to run the container and can then interact with it via `podman-exec`.
 
+NOTE that your host system must registered via subscription-manager.  If you are using Podman Desktop (e.g., on MacOS), you can easily register your machine (and get free [Red Hat Developers Subscription](https://developers.redhat.com/about?source=sso)) via the [Red Hat Account Extension](https://github.com/redhat-developer/podman-desktop-redhat-account-ext).  Otherwise, run `$ sudo subscription-manager register` and provide your Red Hat credentials.
+
 ### Start the container
 
 `$ podman run --rm --name=cla --privileged -v /etc/pki/consumer:/etc/pki/consumer quay.io/vrothberg/command-line-assistant:41`
