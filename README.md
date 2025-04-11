@@ -21,4 +21,4 @@ The command-line-assistant has dbus dependencies which requires systemd to be PI
 
 ### Interact with the command-line-assistant
 
-`$ podman exec cla c "What is Red Hat?`
+![screenshot](screenshot.png)
