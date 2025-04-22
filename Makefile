@@ -3,7 +3,7 @@ ARCH ?= amd64
 
 .PHONY: oci-image
 oci-image:
-	podman build --platform linux/$(ARCH) -t $(IMAGE) .
+	podman build --platform linux/$(ARCH) -t $(IMAGE)$(ADDITIONAL_TAG) .
 
 .PHONY: push-oci-image
 push-oci-image:
