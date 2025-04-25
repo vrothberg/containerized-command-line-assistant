@@ -1,0 +1,10 @@
+[Unit]
+Description=Massage the entitlements to make CLA work
+
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/link-entitlements.sh
+
+[Install]
+WantedBy=multi-user.target
