@@ -21,7 +21,7 @@ The image is available at `quay.io/vrothberg/command-line-assistant:41`.
 
 ### Start the container
 
-`$ podman run --detach --rm --name=cla --privileged -v /etc/pki/consumer:/etc/pki/consumer quay.io/vrothberg/command-line-assistant:41`
+`$ podman run --detach --rm --name=cla quay.io/vrothberg/command-line-assistant:41`
 
 Note the `--detach` as systemd is PID1.  Interactions need to go through `podman exec`.
 
